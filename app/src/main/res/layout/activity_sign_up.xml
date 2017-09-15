@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.mastro.selfit.SignUpActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:clickable="true"
+        android:focusableInTouchMode="true">
+
+        <ImageView android:src="@drawable/ic_home_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!--  Name Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_first_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:hint="@string/Name" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Email Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="@string/Email" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Password Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="@string/password"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- BirthDate Label -->
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp"
+            android:baselineAligned="false"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:id="@+id/selector">
+
+            <TextView
+                android:text="@string/BirthDate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/BirthHeader"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:text="@string/date"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/birth"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:measureWithLargestChild="true"
+            android:layout_marginBottom="5dp">
+
+        <LinearLayout android:id="@+id/leftSpacer"
+            android:layout_weight="0.25"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone" />
+
+        <ToggleButton android:id="@+id/mujer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:text="@string/Woman"
+            android:maxLines="2"
+            android:filterTouchesWhenObscured="true"
+            style="@android:style/Widget.Material.Light.Button.Toggle"
+            android:checked="false"
+            android:textOff="@string/Woman"
+            android:textOn="@string/Woman"
+            android:textColorLink="@color/colorPrimaryDark"
+            android:textColorHighlight="@color/colorPrimaryDark" />
+
+        <ToggleButton android:id="@+id/hombre_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:text="@string/Man"
+            android:maxLines="2"
+            style="@android:style/Widget.Material.Light.Button.Toggle"
+            android:textOff="@string/Man"
+            android:textOn="@string/Man"
+            android:textColorLink="@color/colorPrimaryDark"
+            android:textColorHighlight="@color/colorPrimaryDark" />
+
+        <LinearLayout android:id="@+id/rightSpacer"
+            android:layout_width="0dip"
+            android:layout_weight="0.25"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+        <!-- Signup Button -->
+
+        <Button
+            android:text="@string/SignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button" />
+
+
+        <TextView android:id="@+id/link_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="@string/LoginB"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_marginTop="1dp" />
+
+    </LinearLayout>
+
+
+</ScrollView>

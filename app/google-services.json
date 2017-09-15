@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "770630771821",
+    "firebase_url": "https://selfitapp-48ba7.firebaseio.com",
+    "project_id": "selfitapp-48ba7",
+    "storage_bucket": "selfitapp-48ba7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770630771821:android:aa7178bc83b3527b",
+        "android_client_info": {
+          "package_name": "com.example.mastro.selfit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770630771821-emf3vusv3mqfu5rr2cge0gfa6te21mjt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpyOQC2qwNufrFG5YdsUXr_meF8iTtsvw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

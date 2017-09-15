@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/Home"
+        icon="@drawable/ic_home_black_24dp"
+        title="Selfit"
+        activeColor="@color/colorPrimaryDark"
+        barColorWhenSelected="#515151"/>
+    <tab
+        id="@+id/Search"
+        icon="@drawable/ic_search_black_24dp"
+        title="Search"
+        activeColor="@color/colorPrimaryDark"
+        barColorWhenSelected="#515151"/>
+    <tab
+        id="@+id/Profile"
+        icon="@drawable/ic_account_circle_black_24dp"
+        title="Profile"
+        activeColor="@color/colorPrimaryDark"
+        barColorWhenSelected="#515151"/>
+</tabs>

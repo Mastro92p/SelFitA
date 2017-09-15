@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">SelFit</string>
+    <string name="password">Password</string>
+    <string name="Accept">Aceptar</string>
+
+
+    <string name="app_label">SelFit</string>
+    <string name="BirthDate">Select BirthDate</string>
+    <string name="Login">Login</string>
+    <string name="LogOut">Logout</string>
+    <string name="Email">Email</string>
+    <string name="SignUp">Power Up</string>
+    <string name="SignUpB">No account yet? Create one</string>
+    <string name="Name">Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="LoginB">Already a member? Login</string>
+    <string name="Profile">Profile</string>
+    <string name="Home">Home</string>
+    <string name="Search">Buscar</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="auth_failed">Login Failed</string>
+    <string name="auth_success">Login Success</string>
+    <string name="Man">Hombre</string>
+    <string name="Woman">Mujer</string>
+    <string name="Search_hint">Buscar</string>
+
+    <string name="date">Date</string>
+
+    <string name="Week">Mi Semana</string>
+    <string name="Gym">Mis Establecimientos</string>
+    <string name="Followers">Seguidos</string>
+
+    <string name="PlanName">Plan</string>
+
+    <string name="Edit">Editar Perfil</string>
+
+    <string name="addbutton">+</string>
+    <string name="follow">Seguidos</string>
+
+    <string name="Birth">Cumpleaños</string>
+    <string name="Country">Pais</string>
+    <string name="Fullname">Fullname</string>
+
+    <string name="Reset">Cambiar Contraseña</string>
+
+    <string name="Phone">Phone</string>
+    <string name="Done">Done</string>
+
+    <string name="Send">Enviar</string>
+    <string name="Cancel">Cancerlar</string>
+    <string name="ResetDialog">Restablecer Contraseña</string>
+    <string name="ResetMessage">Se enviara un correo a su direccion Email</string>
+
+    <string name="EditPMessage">Esta seguro que desea cancelar la edicion de su perfil?</string>
+
+    <string name="EditProfile">Editar Perfil</string>
+    <string name="DummyText">Es asd ccss fsfasd asdfghjklqwerut asdajsjj qweuuroiier jsdjkdjaksjd ncmnvncmvn djsdjaksdjkajd qeiu</string>
+    <string name="Dificulty">Dificultad</string>
+    <string name="Trainer">Entranador</string>
+    <string name="Price">Precio</string>
+
+    <string name="Add">Agregar</string>
+    <string name="fill">-</string>
+    <string name="Class">Clase</string>
+    <string name="Horario">Horario</string>
+    <string name="ClassP">Clases</string>
+    <string name="Plans">Planes</string>
+    <string name="Contact">Contacto</string>
+    <string name="UnFollow">Dejar de seguir</string>
+
+    <string name="Lunes">Lunes</string>
+    <string name="Martes">Martes</string>
+    <string name="Miercoles">Miercoles</string>
+    <string name="Jueves">Jueves</string>
+    <string name="Viernes">Viernes</string>
+    <string name="Sabado">Sabado</string>
+    <string name="Domingo">Domingo</string>
+
+</resources>
